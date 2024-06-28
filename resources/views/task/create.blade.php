@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@include('common.errors')
 @section('content')
     <div>
         <form action="{{ route('tasks.store') }}" method="post">
